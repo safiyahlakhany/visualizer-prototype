@@ -1,0 +1,207 @@
+.App {
+    text-align: center;
+    
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .left-side{
+    width: 65%;
+    float: left;
+  }
+  
+  .side-visualizer{
+    /* padding: 30px;
+    width: 25%; */
+    padding: 20px;
+  }
+  
+  .popup{
+    /* position: absolute;
+    bottom: 0; */
+    padding: 10px;
+  }
+  
+  .paragraph {
+    padding: 10px;
+  }
+  
+  .popup-images{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+  }
+  
+  .buttonWrapper{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: white;
+    width: 33%;
+    
+  }
+  #textToDisplay{
+    font-size: 25px;
+  }
+  .buttonWrapper:hover {
+    opacity: 50%;
+  }
+  
+  .red
+  {
+    color: #F67280;
+  }
+  
+  .green{
+    color: #81B780;
+  }
+  .orange {
+    color: rgb(243, 123, 11);
+  }
+  
+  .blue {
+    color: #46ABF4;
+  }
+  
+  .pink{
+    color: #EA8EE1;
+  }
+  
+  .raspberry {
+    color: #FF6291;
+  }
+  
+  .lavender {
+    color: #AB89F2;
+  }
+  
+  .violet{
+    color: #4d41f3;
+  }
+  
+  .magenta{
+    color: rgb(179, 14, 137);
+  }
+  
+  .blue-green{
+    color: rgb(64, 189, 137);
+  }
+  
+  .visualizer-images{
+    width: 100px;
+    height: 100px;
+    /* float: right; */
+    padding: 5px;
+  }
+  
+  .visualizer-row {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    background-color: #EA8EE1;
+    border-radius: 25px;
+    justify-content: center;
+  }
+  .red-background
+  {
+    background-color: #F67280;
+  }
+  
+  .green-background{
+    background-color: #81B780;
+  }
+  .orange-background {
+    background-color: rgb(243, 123, 11);
+  }
+  
+  .blue-background {
+    background-color: #46ABF4;
+  }
+  
+  .pink-background{
+    background-color: #EA8EE1;
+  }
+  
+  .raspberry-background {
+    background-color: #FF6291;
+  }
+  
+  .lavender-background {
+    background-color: #AB89F2;
+  }
+  
+  .violet-background{
+    background-color: #4d41f3;
+  }
+  
+  .magenta-background{
+    background-color: rgb(179, 14, 137);
+  }
+  
+  .blue-green-backgroud{
+    background-color: rgb(64, 189, 137);
+  }
+  
+  
+  .mainTitle {
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+    color: rgb(46, 140, 178)
+  }
+
+  .secondaryTitle{
+      text-align: center;
+  }
+
+
+  .doneButton {
+    color: rgb(46, 140, 178); 
+    background-color: #DEF3FD;
+    text-align: center;
+    border: solid rgb(46, 140, 178); 
+    font-size: 25px; 
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  }
+
+  .subtitle{
+      margin-top: 0px;
+      padding-top: 0px;
+  }
